@@ -2,12 +2,18 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
     color: seashell;
-    background-color: rgba(0, 0, 0, .9);
     margin: 0;    
 }
 
 body {
+    background-color: rgba(0, 0, 0, 1);
     font-size: 22px;
+    text-align: center;
+}
+
+main {
+    width: 1200px;
+    margin: auto;
 }
 
 .flex-container {
@@ -59,7 +65,7 @@ body {
     
 }
 
-h2, h4 {
+h2, h4, h5 {
     margin: 0;
     padding: 10px;
     text-align: center;
@@ -87,4 +93,41 @@ h2, h4 {
     padding: 5px;
     text-align: center;
     font-weight: bold;
+}
+
+.locations {
+    background-image: url(images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 70px;
+}
+
+.location {
+    width: 1100px;
+    margin: auto;
+}
+
+.location-box {
+    width: 300px;
+    padding:10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-box p {
+    margin: 20px 0 ;
+}
+
+.contact__info {
+    height: 200px;
+    padding-top: 20px;
+}
+
+foooter {
+    text-align: left;
+    padding-left: 20px;
 }
